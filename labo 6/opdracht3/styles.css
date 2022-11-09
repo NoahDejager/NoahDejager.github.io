@@ -1,0 +1,45 @@
+body {
+    font-family: Verdana;
+}
+
+header h1, header h2 {
+    color: #edf2f4;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+a {
+    color: #EF233C;
+}
+
+header {
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-top: 10px;
+}
+
+header, footer, .education {
+    padding: 30px;
+}
+
+header, footer {
+    color:#8D99AE;
+    background-color: #2B2D42;
+    /*margin: 10px;*/
+}
+
+header p, footer p {
+    color: #8D99AE;
+}
+
+.education {
+    background-color: #8D99AE;
+}
