@@ -17,3 +17,12 @@ a:hover {
 .stippeltjesrand {
     border: 1px dotted black;
 }
+
+.hyperlinkImage {
+    width: 20px;
+    height: 20px;
+    background-size: 20px;
+    background-image: url('hyperlink.png');
+    background-repeat: no-repeat;
+    display:inline-block;
+}
