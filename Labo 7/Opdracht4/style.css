@@ -1,0 +1,64 @@
+td:first-child, td:last-child {
+    background-color: rgb(255, 220, 220);
+}
+
+.datagrid table {
+    border-collapse: collapse;
+    border: 2px solid black;
+    text-align: left;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.datagrid {
+    font: normal 12px/150% Arial, Helvetica, sans-serif;
+    background: #fff;
+    overflow: hidden;
+
+}
+
+.datagrid table td, .datagrid table th {
+    padding: 3px 13px;
+
+}
+
+.datagrid table thead th {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, rgb(35, 37, 70)), color-stop(1, rgb(35, 37, 70)));
+    background: -moz-linear-gradient(center top, rgb(35, 37, 70) 5%, rgb(35, 37, 70) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#020A7A', endColorstr='#020A7A');
+    background-color: rgb(35, 37, 70);
+    color: rgb(200, 190, 240);
+    font-size: 13px;
+    font-weight: normal;
+    border: 1px dotted #025FFF;
+}
+
+.datagrid table tbody td {
+    color: black;
+    font-size: 12px;
+    font-weight: normal;
+    border: 1px dotted black;
+}
+
+.datagrid table thead #title {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, rgb(250, 120, 120)), color-stop(1, rgb(250, 120, 120)));
+    background: -moz-linear-gradient(center top #FA7878FF 5%, #FA7878FF 100%);
+    background-color: rgb(250, 120, 120);
+    text-align: center;
+    color: black;
+}
+
+tbody tr .other-month {
+    background-color: #d0d0d0;
+    color: darkgray !important;
+}
+
+.vrij {
+    background-color: rgb(250, 120, 120);
+}
+
+.link {
+    text-decoration: underline;
+    cursor: pointer;
+    color: blue !important;
+}

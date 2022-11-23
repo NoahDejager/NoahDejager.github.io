@@ -1,0 +1,38 @@
+body{
+    background-color: #c4bdbd;
+    font-size:1.2em;
+    font-family:Arial;
+}
+
+h1{
+    font-family:ARial Black;
+}
+
+.profilepicture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+.titel{
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+}
+
+.Personalinfo{
+    display: inline-block;
+    text-align: left;
+}
+
+h2{
+    text-align: center;
+}
+
+.hobbies{
+    display: inline-block;
+    text-align: left;
+}
+

@@ -1,0 +1,44 @@
+table.redTable {
+    border: 10px solid #A40808;
+    background-color: #EEE7DB;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+table.redTable td, table.redTable th {
+    border: 1px solid #AAAAAA;
+    padding: 3px 2px;
+}
+table.redTable tbody td {
+    font-size: 20px;
+    font-family: Arial;
+}
+table.redTable tr:nth-child(even) {
+    background: #F5C8BF;
+}
+table.redTable thead {
+    background: #A40808;
+}
+table.redTable thead th {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    border-left: 2px solid #A40808;
+    font-family: Arial Black;
+}
+table.redTable thead th:first-child {
+    border-left: none;
+}
+
+table.redTable tfoot {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #A40808;
+}
+
+.onbekend {
+    background-color: red;
+}
+
