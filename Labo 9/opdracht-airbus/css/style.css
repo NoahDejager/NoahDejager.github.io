@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial;
+}
+
+/* START HEADER */
+header {
+    background-image: url("../fotos/bgsky2.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+
+header > p {
+    color: darkblue;
+    text-align: center;
+    font-weight: bold;
+}
+
+header > p:nth-child(1) {
+    font-style: italic;
+    font-size: 3em;
+}
+
+header > p:nth-child(2) {
+    padding: 80px 0;
+    font-size: 2em;
+}
+
+header > img {
+    position: absolute;
+    right: 100px;
+    top: 50px;
+}
+
+/* END HEADER */
+
+
+/* START ASIDE */
+aside {
+    border: 1px solid black;
+    background-color: #e3e3e3;
+    width: 30%;
+    float: right;
+}
+
+aside > h3 {
+    margin: 20px 0;
+    color: white;
+    text-align: center;
+    background-color: blue;
+}
+
+aside > p {
+    padding: 10px;
+    color: grey;
+}
+
+/* END ASIDE */
+
+/* START MAIN */
+main {
+    width: 70%;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+
+main #logo, main #intro {
+    padding: 15px;
+}
+
+main #logo {
+    float: left;
+    text-align: center;
+}
+
+main #intro {
+    overflow: hidden;
+    text-align: justify;
+}
+
+main #intro span {
+    color: blue;
+    font-style: italic;
+    font-weight: bold;
+}
+
+main .gallery {
+    background-color: #9b9b9b;
+    box-sizing: border-box;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+}
+
+main .gallery img {
+    background-color: white;
+    padding: 5px;
+    margin: 10px;
+}
+
+/* END MAIN */
+
+/* START FOOTER */
+footer {
+    width: 100%;
+    background-color: #676767;
+    color: white;
+    overflow: hidden;
+}
+
+footer > div {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    line-height: 2em;
+    padding: 30px 0;
+}
+
+footer > div:nth-child(odd) {
+    padding-left: 20%;
+    text-decoration: none;
+}
+
+footer > div a {
+    color: white
+}
+
+footer > div > ul > li > ul > li {
+    margin-left: 25px;
+}
+
+/* END FOOTER */
+
+small#copyright {
+    background-color: white;
+    text-align: center;
+    padding: 0 50px;
+}

@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    display: block;
+    border: 1px solid black;
+    float: left;
+    width: -webkit-calc(50% - 10px);
+    width: calc(50% - 10px);
+    box-sizing: border-box;
+}
+
+section:nth-child(odd) {
+    margin: 0 10px 0 0;
+}
+
+section:nth-child(even) {
+    margin: 0 0 0 10px;
+}
+
+p {
+    padding: 10px;
+}
+
+.container {
+    padding: 10px;
+}

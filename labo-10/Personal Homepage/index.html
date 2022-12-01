@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+  <link rel="stylesheet" href="./Style/style.css" />
+  <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+          crossorigin="anonymous"
+  />
+  <title>Personal homepage</title>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>Noah Dejager</h1>
+    <img
+            src="./img/peo_eminem_0310.jpg"
+            alt="foto"
+            class="hoofd img-fluid"
+    />
+  </header>
+
+  <section>
+    <h2>Persoonlijke informatie</h2>
+    <ol>
+      <li>Naam: Noah Dejager</li>
+      <li>Adres: Albertpad 25, 8540 Deerlijk</li>
+      <li>Telefoonnummer: 0492785599</li>
+      <li>
+        Email adres:
+        <a href="mailto:r0944344@student.vives.be"
+        >r0944344@student.vives.be</a
+        >
+      </li>
+    </ol>
+  </section>
+
+  <div class="row">
+    <div class="col-sm">
+      <section>
+        <h2>Hobby's</h2>
+        <ol>
+          <li>
+            Fitness
+            <ul>
+              <li>
+                Ik vind Fitnessen zeer rustgevend en leuk.
+              </li>
+              <li>
+                Link:
+                <a
+                        href="https://www.basic-fit.com/"
+                >Basic Fit</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            Netflix Kijken
+            <ul>
+              <li>
+                Ik kijk graag eens naar een horrorfilm. Dit doe ik meestal via het streamingplatform Netflix
+              </li>
+              <li>
+                Link:
+                <a
+                        href="https://www.netflix.com"
+                >Netflix</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            Cruisen met mijn brommer
+            <ul>
+              <li>
+                Ik doe heel graag eens een toertje met mijn brommer.
+              </li>
+            </ul>
+          </li>
+        </ol>
+      </section>
+    </div>
+    <div class="col-sm">
+      <section>
+        <h2>Vind-ik-leuk</h2>
+        <h3>Muziek luisteren</h3>
+        <ol>
+          <li>
+           Eminem
+            <ul>
+              <li>
+                Link:
+                <a href="https://www.youtube.com/channel/UCfM3zsQsOnfWNUppiycmBuw"
+                >Eminem on Youtube</a
+                >
+                <img
+                        src="./img/peo_eminem_0310.jpg"
+                        alt="slim shady"
+                        class="slim"
+                />
+              </li>
+            </ul>
+          </li>
+          <li>
+            Lil Peep
+            <ul>
+              <li>
+                Link:
+                <a href="https://www.youtube.com/@LilPeepofficial"
+                >Lil Peep on youtube</a
+                >
+                <img
+                        src="./img/Lil_Peep_in_2016_by_Miller_Rodríguez_(portrait_crop).jpg"
+                        alt="peep"
+                        class="peep"
+                />
+              </li>
+            </ul>
+          </li>
+        </ol>
+      </section>
+    </div>
+  </div>
+
+  <div class="accordion accordion-flush" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+        >
+          Vrienden
+        </button>
+      </h2>
+      <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+      >
+        <div class="accordion-body">
+          <section class="datagrid">
+            <table class="redTable">
+              <link rel="stylesheet" href="./Style/table.css">
+              <thead>
+              <tr>
+                <th>Voornaam</th>
+                <th>Naam</th>
+                <th>Leeftijd</th>
+                <th>Geboorteplaats</th>
+                <th>Woonplaats</th>
+                <th>Getrouw (ja/nee)</th>
+                <th>
+                  <p>Kinderen</p>
+                  <p>(ja/nee)</p>
+                </th>
+              </tr>
+              </thead>
+              <tfoot>
+              <tr>
+                <td colspan="7">
+                </td>
+              </tr>
+              </tfoot>
+              <tbody>
+              <tr>
+                <td>Brandon</td>
+                <td>Dejong</td>
+                <td>19</td>
+                <td>Kortrijk</td>
+                <td>Stasegem</td>
+                <td>Nee</td>
+                <td>Nee</td>
+              </tr>
+              <tr>
+                <td>Liam</td>
+                <td>Fransens</td>
+                <td>22</td>
+                <td>Waregem</td>
+                <td>Waregem</td>
+                <td>Ja</td>
+                <td>Nee</td>
+              </tr>
+              <tr>
+                <td>Jakub</td>
+                <td>bolgoar</td>
+                <td>20</td>
+                <td>Parijs</td>
+                <td>Kortrijk</td>
+                <td>Nee</td>
+                <td>Ja</td>
+              </tr>
+
+              <tr>
+                <td>Igor</td>
+                <td>De verschrikkelijke</td>
+                <td class="onbekend"></td>
+                <td>Leuven</td>
+                <td>Waregem</td>
+                <td>Ja</td>
+                <td>Nee</td>
+              </tr>
+
+              <tr>
+                <td>Kees</td>
+                <td>Koos</td>
+                <td>12</td>
+                <td class="onbekend"></td>
+                <td>Waregem</td>
+                <td>nee</td>
+                <td>nee</td>
+              </tr>
+              </tbody>
+            </table>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"
+></script>
+</body>
+</html>

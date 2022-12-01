@@ -1,0 +1,32 @@
+body {
+    background-color: lightgray;
+    font: 1.25em sans-serif;
+    margin: 0px;
+
+}
+
+article {
+    border: 1px solid black;
+    padding: 10px;
+    min-height: 240px;
+    margin: 0 10px 10px;
+    float: right;
+}
+
+article:nth-child(2n+1) img {
+    float: left;
+    margin: 0 10px 0 0;
+}
+article:nth-child(2n) img {
+    float: right;
+    margin: 0 0 0 10px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+p{
+    line-height: 1.25;
+    margin: 0;
+}
